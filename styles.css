@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #724ae2, #6f00ff);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.produkt {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+}
+
+.produkt:hover {
+    transform: translateY(-12px) scale(1.03);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+.produkt img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    transition: all 0.4s ease-in-out;
+    display: block;
+    object-fit: cover;
+}
+
+.produkt img:hover {
+    transform: scale(1.08);
+}
+
+.produkt h3 {
+    margin: 20px 0;
+    font-size: 1.8rem;
+    color: #6f00ff;
+}
+
+.produkt p {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.produkt .image-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+    border-radius: 15px;
+}
